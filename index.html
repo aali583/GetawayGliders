@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Getaway Gliders – Android APK</title>
+  <style>
+    :root{
+      --brand:#7a42f4;
+      --brand-dark:#5a28c8;
+      --bg:#f5ecff;
+      --card:#ffffff;
+      --text:#222;
+      --muted:#666;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{
+      max-width:820px;
+      margin:64px auto;
+      padding:0 16px;
+    }
+    .hero{
+      text-align:center;
+      margin-bottom:16px;
+    }
+    h1{
+      margin:0 0 8px;
+      color:var(--brand);
+      font-weight:800;
+      letter-spacing:.3px;
+    }
+    .sub{ color:var(--muted) }
+    .card{
+      background:var(--card);
+      border-radius:16px;
+      box-shadow:0 8px 28px rgba(0,0,0,.08);
+      padding:28px 22px 32px;
+      margin-top:22px;
+    }
+    .btn{
+      display:inline-block;
+      padding:12px 18px;
+      border-radius:10px;
+      text-decoration:none;
+      background:var(--brand);
+      color:#fff;
+      font-weight:700;
+      transition:transform .03s ease, background .2s ease;
+    }
+    .btn:hover{ background:var(--brand-dark) }
+    .btn:active{ transform:translateY(1px) }
+    .center{ text-align:center }
+    .meta{ color:var(--muted); font-size:.95rem; margin-top:14px }
+    footer{ text-align:center; color:var(--muted); font-size:.9rem; margin-top:20px }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <h1>Getaway Gliders</h1>
+      <p class="sub">
+        A travel scheduler to plan vacations and excursions with alerts and local storage (Room/SQLite).
+      </p>
+      <p><strong>Version:</strong> 1.0 (Demo Build)</p>
+      <p>Download the Android APK below:</p>
+    </header>
+
+    <section class="card center">
+      <h2 style="color:var(--brand); margin-top:0;">Download</h2>
+
+      <p style="margin:14px 0 18px">
+        <a class="btn" href="https://github.com/aali583/GetawayGliders/raw/refs/heads/main/apk/app-debug.apk">
+          Download Getaway Gliders APK
+        </a>
+      </p>
+
+      <p class="meta">
+        Built with Java, Android Studio, and the Room Persistence Library.
+      </p>
+    </section>
+
+    <footer>
+      © 2025 Getaway Gliders
+    </footer>
+  </main>
+</body>
+</html>
